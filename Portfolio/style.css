@@ -1,0 +1,342 @@
+*
+{
+	padding:0;
+	margin:0;
+}
+.nav {
+	
+	
+	margin-top:100px;
+    width: 100%;
+    background-color: #0a1a33; /* Background color for the navigation */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-size: 30px;
+	 
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Background color for the menu */
+    padding: 10px 0; /* Padding for the menu items */
+    z-index: 999; /* Ensure the menu stays on top */
+}
+
+.main ul
+{
+	 
+	float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+	float:right;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.menu li a:hover {
+    color: #ff0;
+}
+
+.animated-text{ 
+    
+   margin-right:400px;
+	margin-top:-50;
+    position:center;
+	/*position: absolute;
+    bottom: -80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	display: flex; /* Use flexbox */
+    align-items: fixed-end; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+	color:#fffcfd;
+	text-align:center;
+	
+    font-size: 34px;
+    font-weight: 400;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Front-End Developer";
+    color: #ff7f50;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #2f3542;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "ASP.NET Developer";
+    }
+    21%,40%{
+        content: "Web-Developer";
+    }
+    41%,60%{
+        content: "Web-Designer";
+    }
+   
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+.myself {
+    font-size: 20px; /* Adjust the font size */
+   
+    color: #fffcfd; /* Set the text color */
+    
+}
+.image img {
+	 margin-left:800;
+	 margin-top:-200px;
+
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position:right;
+	
+    
+}
+.icons { 
+     position:fixed;
+     align-items: flex-end;
+     margin-top:-50;
+     margin-right:900;
+	 margin-left:10px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons horizontally */
+}
+
+.icons a {
+    color: #ebe6e6; /* Set the color of the icons */
+    text-decoration: none; /* Remove underline from the links */
+    margin: 0 10px; /* Add some margin between the icons */
+}
+
+/* Optional: Adjust the size of the icons */
+.icons ion-icon {
+    font-size: 40px;
+	transition: color 0.3s ease;
+}
+.icons a:hover ion-icon {
+    color: #ff0; /* Change icon color on hover */
+}
+
+.Study {
+    width: 100%;
+    background-color: #0a1a33; /* Background color for the navigation */
+    
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-size: 25px;
+}
+
+.Headline {
+    text-align: center; /* Align the headline text to the center */
+    margin-bottom: 20px;
+}
+
+ .Headline h1 {
+    font-size: 24px; /* Adjust the font size of the headline */
+    color: #9dfae1; /* Set the color of the headline text */
+     /* Make the headline text bold */
+}
+
+
+.education {
+	
+	position:center;
+	 border: 1px solid #ccc;
+    padding: 10px; /* Add some padding for spacing */
+}
+
+
+.education p { 
+   
+    color:#ebe6e6;
+    margin: 5px 0; /* Add some vertical margin for the paragraphs */
+}
+
+.projects {
+    position:center;
+	border: 0px solid #ccc;
+    padding: 20px;
+}
+
+.projects h1 {
+    font-size: 24px; /* Font size for the heading */
+    color: #f5faf9; /* Text color */
+}
+
+.projects p { 
+    border:none;
+    font-size: 26px; /* Font size for the paragraph */
+    color: #c0e1fc; /* Text color */
+}
+
+.projects a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.projects a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.Headline {
+    text-align: center; /* Center align the headline */
+    margin-bottom: 50px; /* Add some bottom margin for spacing */
+}
+
+.Headline h2 {
+    font-size: 40px; /* Font size for the headline */
+    color: #bb84f5; /* Text color */
+}
+.skills {
+	margin-top:50;
+    background-color: #0a1a33; /* Background color for the navigation */
+    background-position: center;
+    background-size: cover;
+}
+
+.skills p {
+    font-size: 30px; /* Font size for the paragraphs */
+    color: #38f2f5; /* Text color */
+    margin: 5px 0; /* Margin between each skill */
+}
+
+/* Styling for the "About Me" heading */
+/* Styling for the "About Me" section */
+.About {
+    text-align: center; /* Center align the heading */
+     /* Add some bottom margin for spacing */
+}
+
+.About h1 {
+    font-size: 24px; /* Font size for the heading */
+    color: #83fccc; /* Text color */
+}
+
+
+/* Styling for the "About" section */
+.about {
+	background-color:#0a1a33;
+    padding: 20px; /* Add some padding around the content */
+}
+
+.about p { 
+     font-style: calibri;
+    font-size: 20px; /* Font size for the paragraphs */
+    color:#f5f0f3; /* Text color */
+    margin-bottom: 15px; /* Add some bottom margin for spacing between paragraphs */
+}
+
+
+.about button {
+	border: 2px solid #4CAF50;
+  background-color: #0a1a33;
+  color: #fafcfc;
+ 
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about button:hover {
+  background-color: #285c8a;
+}
+
+.about button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ct {
+    text-align: center; /* Center align the content */
+    /* Add some bottom margin for spacing */
+}
+
+.ct h1 {
+    font-size: 24px; /* Font size for the heading */
+    color: #83fccc; 
+}
+
+.contact p {
+    font-size: 25px; /* Font size for the paragraphs */
+    color: #dcebf7; /* Text color */
+    margin-bottom: 15px; /* Add some bottom margin for spacing between paragraphs */
+}
+
+.contact {
+	background-color:#0a1a33;
+    text-align: center; /* Center align the content */
+    margin-bottom: 20px; /* Add some bottom margin for spacing */
+}
+
+.contact .cn
+ {
+  border: 2px solid #4CAF50;
+  background-position:center;
+  background-color: #0a1a33;
+  color: #dcebf7;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.cn a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+
+.contact .cn:hover {
+    background-color: #11998b; /* Darker blue on hover */
+}
+
